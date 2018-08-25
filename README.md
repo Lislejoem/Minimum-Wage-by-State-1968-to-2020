@@ -5,16 +5,16 @@ While looking online for a clean dataset for minimum wage data by state, I was h
 
 ## Files and Sources
 This repository contains 3 primary items:
-- [`Minimum Wage Data.csv`](..blob/master/Minimum-Wage-Data.csv): A cleaned dataset of US state and federal minimum wages from 1968 to 2018 (not including 2018, but including 2018 equivalency values). The data was scraped from the [United States Department of Labor's table of minimum wage by state](https://www.dol.gov/whd/state/stateMinWageHis.htm). 
-- [`1808 - Minimum Wage by State from 1968 to 2018 - R Code.Rmd`](..blob/master/1808%20-%20Minimum%20Wage%20by%20State%20from%201968%20to%202018%20-%20R%20Code.Rmd): The code used to clean the data
-- [`CPI 1913 - 2018.csv`](..blob/master/CPI-1913---2018.csv): A dataset containing the CPI values used to calculate 2018 equivalent wages. I kept the values in here so that other equivalent dollars could easily be calculated without needing to bring in a separate dataset.
+- [`Minimum Wage Data.csv`](Minimum%20Wage%20Data.csv): A cleaned dataset of US state and federal minimum wages from 1968 to 2018 (not including 2018, but including 2018 equivalency values). The data was scraped from the [United States Department of Labor's table of minimum wage by state](https://www.dol.gov/whd/state/stateMinWageHis.htm). 
+- [`1808 - Minimum Wage by State from 1968 to 2018 - R Code.Rmd`](1808%20-%20Minimum%20Wage%20by%20State%20from%201968%20to%202018%20-%20R%20Code.Rmd): The code used to clean the data
+- [`CPI 1913 - 2018.csv`](CPI%201913%20-%202018.csv): A dataset containing the CPI values used to calculate 2018 equivalent wages. I kept the values in here so that other equivalent dollars could easily be calculated without needing to bring in a separate dataset.
  
 ## Description of Data
-The values in the [dataset](..blob/master/Minimum-Wage-Data.csv) are as follows:
+The values in the [dataset](Minimum%20Wage%20Data.csv) are as follows:
 - Year: The year of the data.
 - State: The state or territory of the data.
 - Table_Data: The scraped value from the [source](https://www.dol.gov/whd/state/stateMinWageHis.htm).
-- Footnote: The footnote associated with the Table_Data. [See more below](https://github.com/Lislejoem/Minimum-Wage-by-State-1968-to-2018/blob/master/README.md#Data-Footnotes).
+- Footnote: The footnote associated with the Table_Data. [See more below](README.md#data-footnotes).
 - High.Value: As there were some values in Table_Data that had multiple values (usually associated with footnotes), this is the higher of the two values in the table. It could be useful for viewing the proposed minimum wage, because in most cases, the higher value meant that all persons protected under minimum wage laws eventually had minimum wage set at that value.
 - Low.Value: This is the same as High.Value, but has the lower of the two values. This could be useful for viewing the effective minimum wage at the year of setting the minimum wage, as peoples protected under such minimum wage laws made that value during that year (although, in most cases, they had a higher minimum wage after that year).
 - CPI.Average: This is the [Consumer Price Index](https://www.investopedia.com/terms/c/consumerpriceindex.asp) associated with that year. It was used to calculate 2018-equivalent values.
