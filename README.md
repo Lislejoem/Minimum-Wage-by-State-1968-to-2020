@@ -1,16 +1,16 @@
-# Minimum Wage by State 1968 to 2018
+# US Minimum Wage by State from 1968 to 2018
 
 ## Rationale for Project
-While looking online for a clean dataset for minimum wage data by state, I was having trouble finding it. So I created one myself!
+While looking online for a clean dataset for minimum wage data by state, I was having trouble finding one. I decided to create one myself and provide it to the community.
 
 ## Files and Sources
 This repository contains 3 primary items:
-- [`Minimum Wage Data.csv`](../blob/master/Minimum Wage Data.csv): A cleaned dataset of US state and federal minimum wages from 1968 to 2018 (not including 2018, but including 2018 equivalency values). The data was scraped from the [United States Department of Labor's table of minimum wage by state](https://www.dol.gov/whd/state/stateMinWageHis.htm). 
-- [`1808 - Minimum Wage by State from 1968 to 2018 - R Code.Rmd`](..blob/master/1808 - Minimum Wage by State from 1968 to 2018 - R Code.Rmd): The code used to clean the data
-- [`CPI 1913 - 2018.csv`](../blob/master/CPI 1913 - 2018.csv): A dataset containing the CPI values used to calculate 2018 equivalent wages. I kept the values in here so that other equivalent dollars could easily be calculated without needing to bring in a separate dataset.
+- [`Minimum Wage Data.csv`](..blob/master/Minimum-Wage-Data.csv): A cleaned dataset of US state and federal minimum wages from 1968 to 2018 (not including 2018, but including 2018 equivalency values). The data was scraped from the [United States Department of Labor's table of minimum wage by state](https://www.dol.gov/whd/state/stateMinWageHis.htm). 
+- [`1808 - Minimum Wage by State from 1968 to 2018 - R Code.Rmd`](..blob/master/1808%20-%20Minimum%20Wage%20by%20State%20from%201968%20to%202018%20-%20R%20Code.Rmd): The code used to clean the data
+- [`CPI 1913 - 2018.csv`](..blob/master/CPI-1913---2018.csv): A dataset containing the CPI values used to calculate 2018 equivalent wages. I kept the values in here so that other equivalent dollars could easily be calculated without needing to bring in a separate dataset.
  
 ## Description of Data
-The values in the [dataset](../blob/master/Minimum Wage Data.csv) are as follows:
+The values in the [dataset](..blob/master/Minimum-Wage-Data.csv) are as follows:
 - Year: The year of the data.
 - State: The state or territory of the data.
 - Table_Data: The scraped value from the [source](https://www.dol.gov/whd/state/stateMinWageHis.htm).
