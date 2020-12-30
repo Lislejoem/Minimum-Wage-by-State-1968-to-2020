@@ -1,7 +1,7 @@
 # US Minimum Wage by State from 1968 to 2020
 
 ## The Basics
-- **What is this?** In the United States, states and the federal government set minimum hourly pay that workers can receive to ensure that citizens experience a minimum quality of life. This [dataset](Minimum%20Wage%20Data.csv) provides the minimum wage data set by each state and the federal government from 1968 to 2020.
+- **What is this?** In the United States, states and the federal government set minimum hourly pay ("minimum wage") that workers can receive to ensure that citizens experience a minimum quality of life. This [dataset](Minimum%20Wage%20Data.csv) provides the minimum wage data set by each state and the federal government from 1968 to 2020.
 
 - **Why did you put this together?** While looking online for a clean dataset for minimum wage data by state, I was having trouble finding one. I decided to create one myself and provide it to the community.
 
@@ -10,8 +10,8 @@
 ## The Goods
 This repository contains 3 primary items:
 - [`Minimum Wage Data.csv`](Minimum%20Wage%20Data.csv): A cleaned dataset of US state and federal minimum wages from 1968 to 2020 (including 2020 equivalency values). The data was scraped from the [United States Department of Labor's table of minimum wage by state](https://www.dol.gov/whd/state/stateMinWageHis.htm). 
-- [`1808 - Minimum Wage by State from 1968 to 2017 - R Code.Rmd`](1808%20-%20Minimum%20Wage%20by%20State%20from%201968%20to%202017%20-%20R%20Code.Rmd): The code used to clean the data
-- [`CPI 1913 - 2018.csv`](CPI%201913%20-%202018.csv): A dataset containing the Consumer Price Index (CPI) values used to calculate 2020 equivalent wages. I kept the values in here so that other equivalent dollars could easily be calculated without needing to bring in a separate dataset.
+- [`2012 - Minimum Wage by State.Rmd`](2012%20-%20Minimum%20Wage%20by%20State.Rmd): The code used to clean the data
+- [`CPI 1913-2020.csv`](CPI%201913-2020.csv): A dataset containing the Consumer Price Index (CPI) values used to calculate 2020 equivalent wages. I kept the values in here so that other equivalent dollars could easily be calculated without needing to bring in a separate dataset.
  
 ## Description of Data
 The values in the [dataset](Minimum%20Wage%20Data.csv) are as follows:
